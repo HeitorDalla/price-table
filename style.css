@@ -3,5 +3,38 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border-radius: 6px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.container h1 {
+    text-align: center;
+    /* color: white; */
+    margin-bottom: 10px;
+}
+
+.container p {
+    text-align: center;
+}
+
+.container ul li {
+    text-decoration: none;
+}
