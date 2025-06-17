@@ -7,6 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="container-principal">
+        <h1>Assinatura Confirmada!</h1>
+        <p>Parabens por pegar o plano!</p>
+        <button type="button" class="button">Voltar para a tabela de preço</button>
+    </div>
     
+    <script>
+        document.addEventListener("DOMContentLoaded", (e) => {
+            e.preventDefault();
+
+            document.querySelector(".button").addEventListener("click", (e) => {
+                e.preventDefault();
+
+                window.location.href = `index.html`;
+            })
+        })
+    </script>
 </body>
 </html>
