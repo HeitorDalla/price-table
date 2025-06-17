@@ -5,6 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assinatura</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            border: 0;
+            box-sizing: border-box;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        body {
+            height: 100vh;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #container-principal {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column wrap;
+        }
+    </style>
 </head>
 <body>
     <div id="container-principal">
@@ -12,7 +36,7 @@
         <p>Parabens por pegar o plano!</p>
         <button type="button" class="button">Voltar para a tabela de preço</button>
     </div>
-    
+
     <script>
         document.addEventListener("DOMContentLoaded", (e) => {
             e.preventDefault();
